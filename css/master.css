@@ -1,0 +1,118 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #5f9165;
+    color: #000000;
+    
+}
+h1 {
+    text-align: center;
+    color: rgba(2, 67, 2, 0.953);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2.5 rem;
+    margin-bottom: 2.5 rem;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(2, 70, 24);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2.5 rem;
+    margin-bottom: 2.5 rem;
+}
+
+h4 {
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2.5 rem;
+    margin-bottom: 2.5 rem;
+}
+
+/* Normal link (not visited yet) */
+a:link {
+    color: rgb(4, 4, 170);
+    text-decoration: none;
+}
+
+/* Visited link */
+a:visited {
+    color: rgb(4, 4, 170);
+    text-decoration: none;
+}
+
+/* Mouse hover */
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+/* While clicking */
+a:active {
+    color: rgb(255, 0, 0);
+}
+
+/* Navbar container */
+.navbar {
+    background-color: #025202;
+    /* Green bar */
+    display: flex;
+    /* place buttons side by side */
+    padding: 0;
+    margin: 0;
+    color: #046802;
+    font-family: Arial, sans-serif;
+    text-shadow: #dbc2c2;
+
+}
+
+.nav-btn:link,
+.nav-btn:visited {
+    flex: 1;
+    text-align: center;
+    display: inline-block;
+    color: rgb(165, 183, 171);
+    /* White text */
+    font-weight: bold;
+    /* Bold */
+    font-family: "Georgia", serif;
+    /* Stylish serif */
+    font-size: 22px;
+    /* Big font */
+    text-decoration: none;
+    /* Remove underline */
+    padding: 14px 0;
+    background-color: #014f01;
+    /* Green */
+    border: 1px solid white;
+    /* Thin white border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    /* Text shadow around box */
+    text-shadow: 2px 2px 4px black;
+    transform: translateY(2px);
+    transition: all 0.2s ease;
+}
+
+/* Hover state */
+.nav-btn:hover {
+    background-color: #409740;
+    /* Lighter green background */
+    color: rgb(165, 191, 174);
+    /* Keep text white */
+    text-shadow: 2px 2px 4px black;
+    /* Shadow behind text */
+}
+
+/* Active (pressed) state */
+.nav-btn:active {
+    background-color: #004b00;
+    /* Darker green when pressed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    transform: translateY(2px);
+    /* 3D pressed effect */
+    color: rgb(170, 192, 170);
+}
+
+#linkedin {
+    font-family: "Times New Roman", serif;
+}
