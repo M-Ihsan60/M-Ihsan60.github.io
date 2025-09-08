@@ -43,7 +43,7 @@ a:visited {
 
 /* Mouse hover */
 a:hover {
-    color: red;
+    color: maroon;
     text-decoration: none;
 }
 
@@ -115,4 +115,5 @@ a:active {
 
 #linkedin {
     font-family: "Times New Roman", serif;
+
 }
