@@ -2,21 +2,8 @@
 
 This is my **first website project**, inspired by a Coursera guided project, but with my own **personal touch** to showcase my skills and profile.
 
-## 📂 Project Structure
-.
-├── css/
-│ └── master.css # Stylesheet
-├── images/
-│ ├── main.jpg # Main banner/profile image
-│ └── resume.jpg # Resume image
-├── index.html # Homepage
-└── resume.html # Resume page
-
-markdown
-Copy code
-
 ## ✨ Features
-- Simple and clean personal homepage (`index.html`)
+- Personal homepage (`index.html`)
 - Resume page (`resume.html`)
 - Separate `css/master.css` for styling
 - Organized `images/` folder for assets
@@ -30,4 +17,5 @@ You can open the project by launching `index.html` in any web browser.
 - Feedback and suggestions are welcome!
 
 ## 🚀 Live Demo
-Check it out here: [My Portfolio Website](https://<your-username>.github.io)
+Check it out here: [My Portfolio Website](https://M-Ihsan60.github.io)
+
