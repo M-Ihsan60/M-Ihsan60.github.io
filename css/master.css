@@ -6,6 +6,10 @@ body {
 
 }
 
+footer {
+    text-align: right;
+}
+
 h1 {
     text-align: center;
     color: rgba(2, 67, 2, 0.953);
@@ -130,7 +134,7 @@ a:active {
     /* match your navbar button green */
     color: rgb(165, 183, 171);
     padding: 20px;
-    overflow-y: hidden;
+    overflow-y: auto;
 }
 
 /* Mobile (phones) */
@@ -273,6 +277,7 @@ a:active {
     color: #023b02;
     text-shadow: 1px 1px 2px #a1bbb3;
 }
+
 
 
 
