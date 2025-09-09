@@ -133,6 +133,20 @@ a:active {
     overflow-y: hidden;
 }
 
+/* Mobile (phones) */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;       /* full width */
+        height: auto;      /* shrink to content height */
+        position: relative; /* no fixed sidebar */
+    }
+
+    .main-content {
+        margin-left: 0;    /* remove the left margin */
+        margin-top: 20px;  /* small spacing below sidebar */
+    }
+}
+
 .sidebar h1 {
     margin-bottom: 10px;
     font-size: 20px;
@@ -253,3 +267,4 @@ a:active {
     color: #023b02;
     text-shadow: 1px 1px 2px #a1bbb3;
 }
+
