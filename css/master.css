@@ -134,19 +134,25 @@ a:active {
 }
 
 /* Mobile (phones) */
-@media (max-width: 992px) {
+@media (max-width: 768px) {
     .sidebar {
-        width: 100%;       /* full width */
-        height: auto;      /* shrink to content height */
-        position: relative; /* no fixed sidebar */
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 15px;
+        box-sizing: border-box;
+        text-align: center;
     }
 
     .main-content {
-        margin-left: 0;    /* remove the left margin */
-        margin-top: 20px;  /* small spacing below sidebar */
+        margin-left: 0 !important;
+        /* override any leftover margin */
+        margin-top: 15px;
+        width: 100%;
+        /* spans full width */
+        box-sizing: border-box;
     }
 }
-
 .sidebar h1 {
     margin-bottom: 10px;
     font-size: 20px;
@@ -267,5 +273,6 @@ a:active {
     color: #023b02;
     text-shadow: 1px 1px 2px #a1bbb3;
 }
+
 
 
