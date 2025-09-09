@@ -131,59 +131,36 @@ a:active {
 }
 
 /* === Sidebar === */
-/* Desktop */
 .sidebar {
-    height: 100vh;   /* replace 100% */
+    height: 100%;
     width: 250px;
     position: fixed;
     top: 0;
     left: 0;
     background-color: #014901;
+    /* match your navbar button green */
     color: rgb(165, 183, 171);
     padding: 20px;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
+    overflow-y:scroll;
 }
 
-/* Mobile portrait */
-@media (max-width: 600px) and (orientation: portrait) {
+/* Mobile (phones) */
+@media (max-width: 768px) {
     .sidebar {
         width: 100%;
-        height: 250px;
-        position: fixed;
-        overflow-y: auto;
+        height: auto;
+        position: relative;
         padding: 15px;
         box-sizing: border-box;
         text-align: center;
-        -webkit-overflow-scrolling: touch;
     }
 
     .main-content {
         margin-left: 0 !important;
+        /* override any leftover margin */
         margin-top: 15px;
         width: 100%;
-        box-sizing: border-box;
-    }
-}
-
-/* Mobile landscape */
-@media (max-width: 600px) and (orientation: landscape) {
-    .sidebar {
-        width: 100%;
-        height: 100%;       /* fit available screen */
-        max-height: 100vh;  /* do not overflow viewport */
-        position: fixed;
-        overflow-y: auto;
-        padding: 15px;
-        box-sizing: border-box;
-        text-align: center;
-        -webkit-overflow-scrolling: touch;
-    }
-
-    .main-content {
-        margin-left: 0 !important;
-        margin-top: 0;      /* optional */
-        width: 100%;
+        /* spans full width */
         box-sizing: border-box;
     }
 }
@@ -308,6 +285,7 @@ a:active {
     color: #023b02;
     text-shadow: 1px 1px 2px #a1bbb3;
 }
+
 
 
 
