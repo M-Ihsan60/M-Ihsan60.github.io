@@ -1,10 +1,11 @@
 body {
     text-align: center;
     font-family: Arial, sans-serif;
-    background-color: #5f9165;
+    background-color: #85ac89;
     color: #000000;
-    
+
 }
+
 h1 {
     text-align: center;
     color: rgba(2, 67, 2, 0.953);
@@ -23,7 +24,7 @@ h2 {
 
 h4 {
     text-align: center;
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 2.5 rem;
     margin-bottom: 2.5 rem;
@@ -116,4 +117,139 @@ a:active {
 #linkedin {
     font-family: "Times New Roman", serif;
 
+}
+
+/* === Sidebar === */
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #014901;
+    /* match your navbar button green */
+    color: rgb(165, 183, 171);
+    padding: 20px;
+    overflow-y: hidden;
+}
+
+.sidebar h1 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    color:#7ea755;
+    text-shadow: 2px 2px 4px #000000;
+    text-decoration-thickness: bold;
+}
+
+.sidebar p {
+    font-size: 14px;
+    margin: 5px 0;
+    text-align: center;
+    opacity: 0.9;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.sidebar h3 {
+    margin-top: 20px;
+    font-size: 16px;
+    padding-bottom: 0px;
+    font-style: bold;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+
+.sidebar .quote p {
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+.resume {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.resume-btn {
+    display: inline-block;
+    background: rgb(90, 133, 53);
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px black;
+}
+
+.resume-btn:hover {
+    background: #357550;
+}
+
+/* === Main Content === */
+.main-content {
+    margin-left: 270px;
+    /* push main content aside */
+    padding: 20px;
+}
+
+/* Skills Table */
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+.skills-table th {
+    background:#014901;
+    /* match sidebar/nav green */
+    color:rgb(165, 183, 171) ;
+    padding: 10px;
+    text-align: left;
+    width: 30%;
+    font-style: oblique;
+}
+
+.skills-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Projects in bubbles */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-bubble {
+    flex: 1 1 250px;
+    background: rgb(90, 133, 53);
+    border-radius: 50px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project-bubble:hover {
+    transform: scale(1.05);
+    background: #357550;
+}
+
+.project-bubble h3 {
+    margin-bottom: 10px;
+    color: #023b02;
+    text-shadow: 1px 1px 2px #a1bbb3;
 }
